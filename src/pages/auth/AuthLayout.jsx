@@ -21,10 +21,7 @@ export default function AuthLayout({
 
                 {/* Title */}
                 <h2 className="text-[28px] text-white font-bold italic">
-                    {title}{" "}
-                    <span className="text-(--primary-color)">
-                        {highlight}
-                    </span>
+                    {title}{" "}{highlight}
                 </h2>
 
                 {/* Subtitle */}

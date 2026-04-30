@@ -1,9 +1,12 @@
 import StepLayout from "./StepLayout";
 import Button from "../../components/PrimaryBtn"
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
 
 export default function Step2() {
-
+    
+    const location = useLocation();
+    const selectedPlanData = location.state?.plan;
     const [form, setForm] = useState({
         firstName: "",
         lastName: "",
@@ -26,14 +29,21 @@ export default function Step2() {
 
                 {/* LEFT CARD */}
                 <div className="flex p-6 bg-(--primary-color) flex-col items-center max-w-75 mx-auto shadow-2xl rounded-2xl">
-                    <img src="/assets/plan-img.png" alt="" />
+                    <img
+                        src={selectedPlanData?.img || "/assets/plan-img.png"}
+                        alt=""
+                    />
+
                     <h3 className="font-bold pt-4 text-2xl text-center text-white">
-                        Unlimited 1GB
+                        {selectedPlanData
+                            ? `${selectedPlanData.type} ${selectedPlanData.gb}`
+                            : "Select a Plan"}
                     </h3>
 
-                    <button className="mt-6 bg-white px-8 py-2 rounded-[10px] hover:text-white hover:bg-black transition font-bold">
-                        View Plans
-                    </button>
+                    <p className="text-white mt-2">
+                        {selectedPlanData?.currency}
+                        {selectedPlanData?.price}/month
+                    </p>
                 </div>
 
                 {/* RIGHT SIDE */}

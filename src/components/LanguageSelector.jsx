@@ -1,9 +1,11 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { ChevronDown } from "lucide-react";
 
 function LanguageSelector() {
     const [open, setOpen] = useState(false);
     const [lang, setLang] = useState("EN");
+
+    const wrapperRef = useRef(null);
 
     const languages = [
         { code: "EN", label: "English", flag: "/assets/us.png" },
@@ -12,14 +14,29 @@ function LanguageSelector() {
 
     const current = languages.find(l => l.code === lang);
 
+    // close on outside click
+    useEffect(() => {
+        function handleClickOutside(event) {
+            if (wrapperRef.current && !wrapperRef.current.contains(event.target)) {
+                setOpen(false);
+            }
+        }
+
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => document.removeEventListener("mousedown", handleClickOutside);
+    }, []);
+
     return (
-        <div className="relative">
+        <div ref={wrapperRef} className="relative">
             {/* Trigger */}
             <div
                 onClick={() => setOpen(!open)}
-                className="flex items-center border-2 border-(--primary-color) rounded-full p-1 gap-1 cursor-pointer">
+                className="flex items-center border-2 border-(--primary-color) rounded-full p-1 gap-1 cursor-pointer"
+            >
                 <img src={current.flag} className="w-6 h-6 rounded-full" />
-                <span className="text-xs"><ChevronDown size={18} /></span>
+                <span className="text-xs">
+                    <ChevronDown size={18} />
+                </span>
             </div>
 
             {/* Dropdown */}
@@ -33,7 +50,7 @@ function LanguageSelector() {
                                 setOpen(false);
                             }}
                             className={`flex items-center gap-3 px-4 py-2 rounded-md cursor-pointer text-sm
-              ${lang === item.code
+                            ${lang === item.code
                                     ? "bg-yellow-400 font-medium text-black"
                                     : ""
                                 }`}

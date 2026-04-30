@@ -2,9 +2,11 @@ import StepLayout from "./StepLayout";
 import Button from "../../components/PrimaryBtn"
 import { useState } from "react";
 import { Info, ChevronDown, CheckCircle } from "lucide-react";
+import { useLocation } from "react-router-dom";
 
 export default function Step1() {
-
+    const location = useLocation();
+    const selectedPlanData = location.state?.plan;
     const [imei, setImei] = useState("");
     const [error, setError] = useState("");
     const [isValid, setIsValid] = useState(false);
@@ -31,14 +33,21 @@ export default function Step1() {
 
                 {/* LEFT CARD */}
                 <div className="flex p-6 bg-(--primary-color) flex-col items-center max-w-75 mx-auto shadow-2xl rounded-2xl">
-                    <img src="/assets/plan-img.png" alt="" />
+                    <img
+                        src={selectedPlanData?.img || "/assets/plan-img.png"}
+                        alt=""
+                    />
+
                     <h3 className="font-bold pt-4 text-2xl text-center text-white">
-                        Unlimited 1GB
+                        {selectedPlanData
+                            ? `${selectedPlanData.type} ${selectedPlanData.gb}`
+                            : "Select a Plan"}
                     </h3>
 
-                    <button className="mt-6 bg-white px-8 py-2 rounded-[10px] hover:text-white hover:bg-black transition font-bold">
-                        View Plans
-                    </button>
+                    <p className="text-white mt-2">
+                        {selectedPlanData?.currency}
+                        {selectedPlanData?.price}/month
+                    </p>
                 </div>
 
                 {/* RIGHT SIDE */}
@@ -165,7 +174,11 @@ export default function Step1() {
 
                     {/* NEXT BUTTON */}
                     <div className="flex justify-end mt-6">
-                        <Button to="/step2" text="Next" />
+                        <Button
+                            to="/step2"
+                            text="Next"
+                            state={{ plan: selectedPlanData }}
+                        />
                     </div>
 
                 </div>
