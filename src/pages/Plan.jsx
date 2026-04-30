@@ -6,7 +6,7 @@ export default function Plan() {
             <section className="max-w-6xl mx-auto px-3 sm:px-10 mt-8">
 
                 <div className="bg-(--primary-color) rounded-2xl py-6 flex justify-center">
-                    <h1 className="font-bold text-white text-center lg:text-6xl text-4xl">
+                    <h1 className="font-heading text-white text-center lg:text-6xl text-4xl">
                         Plans
                     </h1>
                 </div>

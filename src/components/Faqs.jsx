@@ -33,7 +33,7 @@ export default function FAQSection() {
             {/* Heading */}
             <div className="text-center mb-10">
 
-                <h2 className="text-3xl md:text-5xl font-bold text-(--primary-color)">
+                <h2 className="font-heading text-3xl md:text-5xl text-(--primary-color)">
                     Frequently Asked Questions
                 </h2>
 

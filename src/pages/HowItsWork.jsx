@@ -26,7 +26,7 @@ export default function HowItsWork() {
         <>
             <div className="max-w-6xl mx-auto px-3 sm:px-10 mt-8">
                 <div className="bg-(--primary-color) rounded-2xl py-6 flex justify-center">
-                    <h1 className="font-bold text-white text-center lg:text-6xl text-4xl">
+                    <h1 className="font-heading text-white text-center lg:text-6xl text-4xl">
                         How Its Work
                     </h1>
                 </div>
@@ -37,7 +37,7 @@ export default function HowItsWork() {
 
                     {/* Heading */}
                     <div className="lg:px-12 px-6">
-                        <h2 className="text-3xl md:text-5xl text-center text-(--primary-color) font-bold leading-tight mb-4">
+                        <h2 className="font-heading text-3xl md:text-5xl text-center text-(--primary-color) leading-tight mb-4">
                             Simple Steps to Get Connected
                         </h2>
 

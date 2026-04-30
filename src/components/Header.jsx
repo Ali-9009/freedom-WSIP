@@ -15,8 +15,8 @@ export default function Header() {
     // ACTIVE LINK STYLE
     const linkClass = ({ isActive }) =>
         isActive
-            ? "text-orange-600 font-semibold"
-            : "text-gray-700 hover:text-orange-500 transition";
+            ? "text-(--primary-color) font-semibold"
+            : "text-gray-700 hover:text-(--secondary-color) transition";
 
     // CLOSE ON ROUTE CHANGE
     useEffect(() => {

@@ -11,7 +11,7 @@ export default function Home() {
                 <div className="grid lg:grid-cols-2 gap-10 items-center max-w-6xl mx-auto">
 
                     <div>
-                        <h1 className="text-3xl md:text-6xl text-(--primary-color) font-bold leading-tight mb-2">
+                        <h1 className="font-heading text-3xl md:text-6xl text-(--primary-color) leading-tight mb-2">
                             Stay Connected. <br /> Experience True Freedom.
                         </h1>
                         <p className="text-md font-bold mb-2">
@@ -25,7 +25,7 @@ export default function Home() {
                         </p>
 
                         <div className="flex gap-4">
-                            <Button text="Join Now" />
+                            <Button to="/plan" text="Join Now" />
                         </div>
                     </div>
 
@@ -52,7 +52,7 @@ export default function Home() {
                     </div>
 
                     <div>
-                        <h1 className="text-3xl md:text-5xl text-(--primary-color) font-bold leading-tight mb-2">
+                        <h1 className="font-heading text-3xl md:text-5xl text-(--primary-color) leading-tight mb-2">
                             Welcome to Freedom WISP Mobile
                         </h1>
                         <p className="text-md font-bold mb-2">
@@ -66,7 +66,7 @@ export default function Home() {
                         </p>
 
                         <div className="flex gap-4">
-                            <Button text="Join Now" />
+                            <Button to="/plan" text="Join Now" />
                         </div>
                     </div>
 
@@ -79,7 +79,7 @@ export default function Home() {
                 <div className="grid lg:grid-cols-2 gap-10 items-center max-w-6xl mx-auto">
 
                     <div>
-                        <h1 className="text-3xl md:text-5xl text-(--primary-color) font-bold leading-tight mb-2">
+                        <h1 className="font-heading text-3xl md:text-5xl text-(--primary-color) leading-tight mb-2">
                             Step Into the World of Freedom
                         </h1>
                         <h3 className="text-xl text-(--secondary-color) font-bold mb-2">
@@ -90,7 +90,7 @@ export default function Home() {
                         </p>
 
                         <div className="flex gap-4">
-                            <Button text="Join Now" />
+                            <Button to="/plan" text="Join Now" />
                         </div>
                     </div>
 
@@ -117,7 +117,7 @@ export default function Home() {
                     </div>
 
                     <div>
-                        <h1 className="text-3xl md:text-5xl text-(--primary-color) font-bold leading-tight mb-2">
+                        <h1 className="font-heading text-3xl md:text-5xl text-(--primary-color) leading-tight mb-2">
                             Always On. Always Connected.
                         </h1>
                         <h3 className="text-xl text-(--secondary-color) font-bold mb-2">
@@ -128,7 +128,7 @@ export default function Home() {
                         </p>
 
                         <div className="flex gap-4">
-                            <Button text="Join Now" />
+                            <Button to="/plan" text="Join Now" />
                         </div>
                     </div>
 

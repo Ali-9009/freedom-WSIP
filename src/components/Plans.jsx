@@ -16,7 +16,7 @@ export default function Plans() {
     return (
         <section className="max-w-6xl mx-auto py-12 px-5">
 
-            <h2 className="text-3xl md:text-5xl text-center text-(--primary-color) font-bold leading-tight mb-4">
+            <h2 className="font-heading text-3xl md:text-5xl text-center text-(--primary-color) leading-tight mb-4">
                 Plan Price Data Lifestyle Access
             </h2>
 
