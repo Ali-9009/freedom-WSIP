@@ -15,7 +15,7 @@ export default function Layout() {
                     duration: 0.3,
                     ease: [0.22, 1, 0.36, 1],
                 }}
-                className="min-h-screen"
+                className=""
             >
                 <Outlet />
             </motion.div>
