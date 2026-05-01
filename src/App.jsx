@@ -22,6 +22,7 @@ import SignUp from "./pages/auth/SignUp";
 import ForgotPassword from "./pages/auth/ForgotPassword";
 import ResetPassword from "./pages/auth/ResetPassword";
 import Dashboard from "./pages/dashboard/Dashboard";
+import Internet from "./pages/Internet";
 
 function App() {
   const location = useLocation();
@@ -39,6 +40,7 @@ function App() {
             {/* WRAPPED ROUTES (ANIMATED) */}
             <Route element={<Layout />}>
               <Route path="/" element={<Home />} />
+              <Route path="/internet" element={<Internet />} />
               <Route path="/plan" element={<Plan />} />
               <Route path="/step1" element={<Step1 />} />
               <Route path="/step2" element={<Step2 />} />
