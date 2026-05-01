@@ -70,6 +70,7 @@ export default function Header() {
                     {/* DESKTOP NAV */}
                     <nav className="hidden md:flex gap-8 font-medium">
                         <NavLink to="/plan" className={linkClass}>Plans</NavLink>
+                        <NavLink to="/internet" className={linkClass}>Internet</NavLink>
                         <NavLink to="/how-its-work" className={linkClass}>How It Works</NavLink>
                         <NavLink to="/contact" className={linkClass}>Contact Us</NavLink>
                     </nav>
@@ -137,6 +138,7 @@ export default function Header() {
                 {/* LINKS */}
                 <div className="flex flex-col p-4 space-y-4 font-medium">
                     <NavLink to="/plan" className={linkClass}>Plans</NavLink>
+                    <NavLink to="/internet" className={linkClass}>Internet</NavLink>
                     <NavLink to="/how-its-work" className={linkClass}>How It Works</NavLink>
                     <NavLink to="/contact" className={linkClass}>Contact Us</NavLink>
                 </div>

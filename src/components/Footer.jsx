@@ -4,6 +4,7 @@ export default function Footer() {
 
     const navLinks = [
         { name: "Plans", path: "/plan" },
+        { name: "Internet", path: "/internet" },
         { name: "How it Works", path: "/how-its-work" },
         { name: "Contact Us", path: "/contact" },
     ];
