@@ -15,13 +15,13 @@ export default function Home() {
                             Stay Connected. <br /> Experience True Freedom.
                         </h1>
                         <p className="text-md font-bold mb-2">
-                            Reliable and affordable mobile plans with Freedom WISP Mobile.
+                            Reliable and affordable mobile plans with Freedom FON.
                         </p>
                         <h3 className="md:text-3xl text-2xl text-(--secondary-color) font-bold mb-2">
                             Join the $45 Freedom Plan
                         </h3>
                         <p className="text-lg mb-6">
-                            Enjoy unlimited talk & text, high-speed data, and seamless connectivity to keep you connected anytime, anywhere with Freedom WISP Mobile.
+                            Enjoy unlimited talk & text, high-speed data, and seamless connectivity to keep you connected anytime, anywhere with Freedom FON.
                         </p>
 
                         <div className="flex gap-4">
@@ -53,16 +53,16 @@ export default function Home() {
 
                     <div>
                         <h1 className="font-heading text-3xl md:text-5xl text-(--primary-color) leading-tight mb-2">
-                            Welcome to Freedom WISP Mobile
+                            Welcome to Freedom FON
                         </h1>
                         <p className="text-md font-bold mb-2">
-                            Need more data, minutes, or texts? With Freedom WISP Mobile, topping up is fast, simple, and flexible so you stay connected without interruptions.
+                            Need more data, minutes, or texts? With Freedom FON, topping up is fast, simple, and flexible so you stay connected without interruptions.
                         </p>
                         <h3 className="text-xl text-(--secondary-color) font-bold mb-2">
                             Manage everything in one easy app.
                         </h3>
                         <p className="text-lg mb-6">
-                            Open the Freedom WISP Mobile app, choose add-ons, and instantly boost your data, minutes, or texts anytime, anywhere—giving you complete control over your mobile experience.
+                            Open the Freedom FON app, choose add-ons, and instantly boost your data, minutes, or texts anytime, anywhere—giving you complete control over your mobile experience.
                         </p>
 
                         <div className="flex gap-4">
@@ -86,7 +86,7 @@ export default function Home() {
                             Real connections. Unlimited possibilities.
                         </h3>
                         <p className="text-lg mb-6">
-                            With Freedom WISP Mobile, enjoy reliable connectivity, exclusive offers, and seamless communication designed to keep you connected, informed, and in control wherever you go.
+                            With Freedom FON, enjoy reliable connectivity, exclusive offers, and seamless communication designed to keep you connected, informed, and in control wherever you go.
                         </p>
 
                         <div className="flex gap-4">
@@ -121,10 +121,10 @@ export default function Home() {
                             Always On. Always Connected.
                         </h1>
                         <h3 className="text-xl text-(--secondary-color) font-bold mb-2">
-                            Stay powered with Freedom WISP Mobile.
+                            Stay powered with Freedom FON.
                         </h3>
                         <p className="text-lg mb-6">
-                            Freedom WISP Mobile keeps up with your lifestyle—fast, reliable, and always ready. Enjoy strong coverage, affordable plans, and seamless connectivity to stay connected with what matters most, every day.
+                            Freedom FON keeps up with your lifestyle—fast, reliable, and always ready. Enjoy strong coverage, affordable plans, and seamless connectivity to stay connected with what matters most, every day.
                         </p>
 
                         <div className="flex gap-4">

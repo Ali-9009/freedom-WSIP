@@ -49,7 +49,7 @@ export default function Footer() {
                 {/* Center text */}
                 <div className="w-full md:w-[30%] flex items-center justify-center py-4">
                     <p className="text-center text-[13px] sm:text-[16px] text-black leading-6">
-                        ©2026 Freedom WISP Mobile. All rights reserved.
+                        ©2026 Freedom FON. All rights reserved.
                     </p>
                 </div>
 
