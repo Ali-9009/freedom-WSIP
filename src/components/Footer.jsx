@@ -7,6 +7,7 @@ export default function Footer() {
         { name: "Internet", path: "/internet" },
         { name: "How it Works", path: "/how-its-work" },
         { name: "Contact Us", path: "/contact" },
+        { name: "Internet Service", path: "/services1" },
     ];
 
     return (

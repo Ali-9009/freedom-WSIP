@@ -23,6 +23,11 @@ import ForgotPassword from "./pages/auth/ForgotPassword";
 import ResetPassword from "./pages/auth/ResetPassword";
 import Dashboard from "./pages/dashboard/Dashboard";
 import Internet from "./pages/Internet";
+import Services1 from "./pages/spectrum-internet-service/Services1";
+import Services2 from "./pages/spectrum-internet-service/Services2";
+import Services3 from "./pages/spectrum-internet-service/Services3";
+import Services4 from "./pages/spectrum-internet-service/Services4";
+import Services5 from "./pages/spectrum-internet-service/Services5";
 
 function App() {
   const location = useLocation();
@@ -56,6 +61,15 @@ function App() {
             <Route path="/signup" element={<SignUp />} />
             <Route path="/forgot" element={<ForgotPassword />} />
             <Route path="/reset-password" element={<ResetPassword />} />
+
+
+            <Route path="/services1" element={<Services1 />} />
+            <Route path="/services2" element={<Services2 />} />
+            <Route path="/services3" element={<Services3 />} />
+            <Route path="/services4" element={<Services4 />} />
+            <Route path="/services5" element={<Services5 />} />
+
+
 
           </Routes>
         </AnimatePresence>
