@@ -160,7 +160,7 @@ export default function Services4() {
                                 </p>
 
                                 <p className="text-sm w-120 text-gray-400 leading-relaxed mb-2">
-                                    Save time and never miss a payment with Auto Pay. Payment preferences can be modified at any time in the My Spectrum App.
+                                    Save time and never miss a payment with Auto Pay. Payment preferences can be modified at any time in the My Freedom FON App.
                                 </p>
 
                                 <div className="flex gap-6">
@@ -200,7 +200,7 @@ export default function Services4() {
                             </p>
 
                             <ul className="list-disc pl-5 text-sm text-gray-600 space-y-1">
-                                <li>You are authorizing Spectrum to draft the total amount from your credit or debit card each month.</li>
+                                <li>You are authorizing Freedom FON to draft the total amount from your credit or debit card each month.</li>
                                 <li>If your card changes or expires, it’s your responsibility to update the information with us.</li>
                                 <li>There may be fees up to $25.00 for returned unpaid payments.</li>
                                 <li>The total amount will be drafted on each billing due date, starting with the next one.</li>
@@ -306,7 +306,7 @@ export default function Services4() {
                         <p className="font-medium text-gray-900">Internet</p>
 
                         <div className="flex justify-between text-sm text-gray-600">
-                            <span>Spectrum Internet Gig</span>
+                            <span>Freedom FON Internet Gig</span>
                             <span className="text-gray-900">$70.00</span>
                         </div>
 

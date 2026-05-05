@@ -66,7 +66,7 @@ export default function Services5() {
                                 You will receive an email confirmation of your services but I would also like to recap our conversation today to ensure I have everything correct.
                             </p>
                             <p>
-                                You will be receiving Internet Gig for the promotional rate of $70.00, additional taxes and fee apply, and will expire in 12 months from the install date of the self or professional installation activation date or eight days after receipt of your Spectrum equipment, whichever comes first. Your first monthly statement will also include an installation and/or activation fee of $73.47.
+                                You will be receiving Internet Gig for the promotional rate of $70.00, additional taxes and fee apply, and will expire in 12 months from the install date of the self or professional installation activation date or eight days after receipt of your Freedom FON equipment, whichever comes first. Your first monthly statement will also include an installation and/or activation fee of $73.47.
                             </p>
                         </div>
 
@@ -94,7 +94,7 @@ export default function Services5() {
                                     I acknowledge receipt of Charter's Privacy Policy.
                                 </li>
                                 <li>
-                                    I agree to Spectrum Internet Acceptable Use Policy, Spectrum Residential Internet Services Agreement, Spectrum Residential General Terms and Conditions of Service, Residential Customer Guarantees, and Age Consent.
+                                    I agree to Freedom FON Internet Acceptable Use Policy, Freedom FON Residential Internet Services Agreement, Freedom FON Residential General Terms and Conditions of Service, Residential Customer Guarantees, and Age Consent.
                                 </li>
                                 <li>
                                     I agree to the Self Installation Agreement.
@@ -121,7 +121,7 @@ export default function Services5() {
                         <p className="font-medium text-gray-900">Internet</p>
 
                         <div className="flex justify-between text-sm text-gray-600">
-                            <span>Spectrum Internet Gig</span>
+                            <span>Freedom FON Internet Gig</span>
                             <span className="text-gray-900">$70.00</span>
                         </div>
 
