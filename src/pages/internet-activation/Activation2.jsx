@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "../../components/PrimaryBtn";
 
-export default function Services2() {
+export default function Activation2() {
     const navigate = useNavigate();
     const timerRef = useRef(null);
 
@@ -93,7 +93,7 @@ export default function Services2() {
         if (!validate()) return;
 
         // Navigate if everything is good
-        navigate("/services3", {
+        navigate("/activation-3", {
             state: {
                 customerInfo: {
                     ...form,

@@ -3,7 +3,7 @@ import Button from "../../components/PrimaryBtn";
 import BroadbandModal from "../../components/popup/BroadbandModal";
 
 
-export default function Services5() {
+export default function Activation5() {
     const [open, setOpen] = useState(false);
 
     return (

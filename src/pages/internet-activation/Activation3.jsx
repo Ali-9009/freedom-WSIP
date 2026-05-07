@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "../../components/PrimaryBtn";
 
-export default function Services3() {
+export default function Activation3() {
     const [tab, setTab] = useState("featured");
     const navigate = useNavigate();
 
@@ -32,7 +32,7 @@ export default function Services3() {
 
     const handleContinue = () => {
         if (!selectedPlan) return;
-        navigate("/services4", {
+        navigate("/activation-4", {
             state: { plan: selectedPlan },
         });
     };

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Button from "../../components/PrimaryBtn";
 
-export default function Services4() {
+export default function Activation4() {
     const [promoOptIn, setPromoOptIn] = useState(true);
     const [phoneType, setPhoneType] = useState("mobile");
     const [livedOverYear, setLivedOverYear] = useState("yes");
@@ -272,7 +272,7 @@ export default function Services4() {
                             <label className="flex items-start gap-3 p-4 border rounded-lg border-gray-300">
                                 <input type="radio" name="install" defaultChecked className="mt-1 accent-sky-600" />
                                 <div>
-                                    <p className="text-sm font-medium">TECH-INSTALLATION KIT</p>
+                                    <p className="text-sm font-medium">TECH-INSTALLATION</p>
                                     <p className="text-xs text-gray-500">Deliver to customer</p>
                                     <p className="text-xs text-gray-500">Estimated Delivery: Change estimated delivery date</p>
                                     <p className="text-xs font-medium">$30.00 / one-time charge</p>
@@ -292,7 +292,7 @@ export default function Services4() {
                                 For Self-Install orders that have not yet activated service, billing begins when service is activated or after eight days after shipping—whichever comes first. Self-installation is required for Apple TV.
                             </p>
                         </div>
-                        <Button text="Continue" to="/services5" className="mt-4" />
+                        <Button text="Continue" to="/activation-5" className="mt-4" />
                     </div>
                 </div>
 
