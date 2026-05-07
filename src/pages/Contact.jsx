@@ -41,25 +41,25 @@ export default function Contact() {
                             </div>
 
                             {/* Contact Info */}
-                            <ul className="flex flex-col gap-6 mt-10">
+                            <ul className="flex flex-col gap-6 mt-10 items-start">
 
-                                <li className="flex items-center gap-4 justify-center md:justify-start font-semibold text-base md:text-base">
-                                    <Phone size={24} className="md:w-5 md:h-5 shrink-0" />
-                                    <a href="tel:+10123456789" className="wrap-break-words">
+                                <li className="flex items-center gap-4 justify-start font-semibold text-base">
+                                    <Phone size={24} className="shrink-0" />
+                                    <a href="tel:+10123456789" className="">
                                         +1012 3456 789
                                     </a>
                                 </li>
 
-                                <li className="flex items-center gap-4 justify-center md:justify-start font-semibold text-base md:text-base">
-                                    <Mail size={24} className="md:w-5 md:h-5 shrink-0" />
-                                    <a href="mailto:demo@gmail.com" className="wrap-break-words">
+                                <li className="flex items-center gap-4 justify-start font-semibold text-base">
+                                    <Mail size={24} className="shrink-0" />
+                                    <a href="mailto:demo@gmail.com" className="">
                                         demo@gmail.com
                                     </a>
                                 </li>
 
-                                <li className="flex items-start gap-4 justify-center md:justify-start font-semibold text-base md:text-base text-center md:text-left">
-                                    <MapPin size={24} className="md:w-5 md:h-5 shrink-0 mt-1" />
-                                    <span className="leading-relaxed">
+                                <li className="flex items-start gap-4 justify-start font-semibold text-base text-left">
+                                    <MapPin size={24} className="shrink-0 mt-1" />
+                                    <span className="leading-relaxed text-left">
                                         132 Dartmouth Street Boston, Massachusetts 02156 United States
                                     </span>
                                 </li>

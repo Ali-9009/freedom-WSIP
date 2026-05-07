@@ -272,7 +272,7 @@ export default function Services4() {
                             <label className="flex items-start gap-3 p-4 border rounded-lg border-gray-300">
                                 <input type="radio" name="install" defaultChecked className="mt-1 accent-sky-600" />
                                 <div>
-                                    <p className="text-sm font-medium">SELF-INSTALLATION KIT (Selected)</p>
+                                    <p className="text-sm font-medium">TECH-INSTALLATION KIT</p>
                                     <p className="text-xs text-gray-500">Deliver to customer</p>
                                     <p className="text-xs text-gray-500">Estimated Delivery: Change estimated delivery date</p>
                                     <p className="text-xs font-medium">$30.00 / one-time charge</p>

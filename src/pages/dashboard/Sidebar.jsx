@@ -12,7 +12,7 @@ const navItems = [
 
 const Sidebar = ({ activeTab, setActiveTab, sidebarOpen, setSidebarOpen }) => {
     return (
-        <div className={`left-div fixed md:static max-md:top-[50%] max-md:left-[50%] max-md:-translate-x-1/2 max-md:-translate-y-1/2 h-fit md:h-fit w-70 md:w-70 lg:w-75 bg-[#f3f3f3] flex-col gap-2 rounded-lg max-md:shadow-2xl md:rounded-2xl px-3 lg:px-3 py-4 md:py-8 transform ${sidebarOpen ? 'scale-100' : 'scale-0 md:scale-100'} transition-transform duration-300 z-4`}>
+        <div className={`left-div fixed md:static max-md:top-[50%] max-md:left-[50%] max-md:-translate-x-1/2 max-md:-translate-y-1/2 h-fit md:h-fit w-70 md:w-70 lg:w-75 bg-[#f3f3f3] flex-col gap-2 rounded-lg max-md:shadow-2xl md:rounded-2xl px-3 lg:px-3 py-4 md:py-8 transform ${sidebarOpen ? 'scale-100' : 'scale-0 md:scale-100'} transition-transform duration-300 md:z-44 z-90`}>
             <div className="flex items-center p-2 md:gap-2 bg-white rounded-xl mb-3">
                 <img className="max-lg:w-12 max-md:w-10" src="/assets/profile.png" alt="" />
                 <div className="lg:space-y-0 max-md:-space-y-1">
